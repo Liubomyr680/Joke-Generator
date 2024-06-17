@@ -50,4 +50,4 @@ jobs:
           app-name: 'test-ls-appservice'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B82DFF6700DC494789523811796307F0 }}
-          package: '*.war'
+          package: '*.jar'
